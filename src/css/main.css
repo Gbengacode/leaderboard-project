@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  display: grid;
+  margin: 50px;
+  grid-template-columns: 1fr;
+}
+
+.btn {
+  background: #6070ff;
+  border-radius: 2px;
+  border: none;
+  color: #fff;
+}
+
+.score-display {
+  border: 1.5px solid #333;
+  margin-top: 20px;
+}
+
+section .container {
+  display: flex;
+  gap: 100px;
+}
+
+.score-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.score-container h1 {
+  font-size: 40px;
+  font-weight: 570;
+  color: #333;
+}
+
+.score-container .title {
+  display: flex;
+  gap: 40px;
+}
+
+form input {
+  padding: 10px;
+  width: 100%;
+}
+
+form .btn {
+  width: 100px;
+  padding: 10px;
+  align-self: flex-end;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.title .btn {
+  height: 40px;
+  padding: 10px 20px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 20px;
+}
+
+.score-display ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  gap: 20px;
+  padding: 5px 10px;
+}
+
+li:nth-child(even) {
+  background: #6070ffe1;
+  color: #fff;
+}
+
+section .form-container {
+  margin-top: 40px;
+  width: 500px;
+}
+
+section h2 {
+  font-size: 20px;
+  color: #333;
+  font-weight: 400;
+}
+
+section form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
