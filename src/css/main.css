@@ -22,11 +22,16 @@ section {
   grid-template-columns: 1fr;
 }
 
+.d-none {
+  display: none;
+}
+
 .btn {
   background: #6070ff;
   border-radius: 2px;
   border: none;
   color: #fff;
+  cursor: pointer;
 }
 
 .score-display {

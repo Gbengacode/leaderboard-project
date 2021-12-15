@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Leadership board</title>
   </head>
   <body>
@@ -14,7 +15,7 @@
             <h1>Leader board</h1>
             <div class="title">
               <h2>Recent scores</h2>
-              <button type="button" class="btn btn-success">Refresh</button>
+              <button type="button" class="btn btn-success refresh">Refresh</button>
             </div>
             <div class="score-display">
               <ul></ul>
@@ -22,11 +23,14 @@
           </div>
 
           <div class="form-container">
+            <div class="alert alert-success alert text-center d-none" role="alert">
+            
+            </div>
             <h2>Add your score</h2>
             <form>
-              <input type="text" placeholder="your name" />
-              <input type="number" placeholder="your score" />
-              <button type="button" class="btn btn-primary">Submit</button>
+              <input type="text" class="user" placeholder="your name" />
+              <input type="number" class="score" placeholder="your score" />
+              <button type="button" class="btn btn-primary submit">Submit</button>
             </form>
           </div>
         </div>
