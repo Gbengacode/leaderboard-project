@@ -1,5 +1,9 @@
 import './css/main.css';
-import template from './template.js';
-import data from './data.js';
+import { fetchUsers } from './apis/index.js';
+import formHandler from './events/form.js';
+import refreshHandler from './events/refresh.js';
+import template from './contents/template.js';
 
-template(data);
+formHandler();
+refreshHandler();
+template(fetchUsers());
