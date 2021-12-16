@@ -14,6 +14,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
+  background: url('../img/game.jpg') no-repeat center center;
+  background-size: cover;
 }
 
 section {
@@ -27,16 +29,39 @@ section {
 }
 
 .btn {
-  background: #6070ff;
+  background: #333347;
   border-radius: 2px;
   border: none;
   color: #fff;
   cursor: pointer;
 }
 
+form .btn {
+  width: 100px;
+  padding: 10px;
+  align-self: flex-end;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn:hover {
+  background: #fff;
+  border-radius: 2px;
+  color: #333347;
+  cursor: pointer;
+  border: 2px solid #333347;
+}
+
 .score-display {
-  border: 1.5px solid #333;
+  border: 2px solid #7d6a6a;
   margin-top: 20px;
+  overflow: scroll;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 section .container {
@@ -53,7 +78,7 @@ section .container {
 .score-container h1 {
   font-size: 40px;
   font-weight: 570;
-  color: #333;
+  color: #22223ce1;
 }
 
 .score-container .title {
@@ -62,16 +87,8 @@ section .container {
 }
 
 form input {
-  padding: 10px;
+  padding: 15px;
   width: 100%;
-}
-
-form .btn {
-  width: 100px;
-  padding: 10px;
-  align-self: flex-end;
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
 }
 
 .title .btn {
@@ -93,21 +110,31 @@ li {
   display: flex;
   gap: 20px;
   padding: 5px 10px;
+  font-size: 16px;
+}
+
+li p {
+  color: #22223ce1;
+}
+
+li:hover {
+  background: rgb(228, 224, 224);
 }
 
 li:nth-child(even) {
-  background: #6070ffe1;
+  background: #bcbcc1e1;
   color: #fff;
 }
 
 section .form-container {
   margin-top: 40px;
   width: 500px;
+  position: relative;
 }
 
 section h2 {
   font-size: 20px;
-  color: #333;
+  color: #22223ce1;
   font-weight: 400;
 }
 
