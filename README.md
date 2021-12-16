@@ -24,7 +24,7 @@ Porject's features are added into seperate branch to keep dev safe.
 
 ## Online live link
 
-[Visit project online](https://gbengacode.github.io/leaderboard-project/dist/)
+[Visit project online](https://leadershipboard01.netlify.app/)
 
 ## Getting Started
 
