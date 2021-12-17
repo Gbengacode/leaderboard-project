@@ -1,0 +1,47 @@
+@media only screen and (max-width: 991px) {
+  .score-container h1 {
+    font-size: 20px;
+    font-weight: 570;
+    color: #333;
+  }
+
+  section h2 {
+    font-size: 15px;
+    color: #333;
+    font-weight: 400;
+  }
+
+  .score-container {
+    display: flex;
+    width: 300px;
+  }
+
+  li {
+    display: flex;
+    gap: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+  section .container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+
+  section .form-container {
+    margin-top: 40px;
+    width: 300px;
+  }
+
+  .title .btn {
+    height: 40px;
+    padding: 5px 10px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+  }
+
+  .error {
+    font-size: 12px;
+  }
+}

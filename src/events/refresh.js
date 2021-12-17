@@ -4,7 +4,6 @@ import { fetchUsers } from '../apis/index.js';
 
 export default () => {
   const btnRefresh = document.querySelector('.refresh');
-
   btnRefresh.addEventListener('click', () => {
     template(fetchUsers());
   });
