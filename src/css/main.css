@@ -57,6 +57,7 @@ form .btn {
   margin-top: 20px;
   overflow: scroll;
   border-radius: 5px;
+  height: 200px;
   box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 }
 
